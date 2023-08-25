@@ -23,7 +23,7 @@ examples:
 	make app-name=CPU-X  executable-path=.\\/usr\\/bin\\/cpu-x package-name=cpu-x category=X-system icon-path=./icons/cpu-x.png
 	make app-name=Thunderbird  executable-path=.\\/usr\\/bin\\/thunderbird package-name=thunderbird category=X-email icon-path=./icons/thunderbird.png
 	make app-name=Konsole  executable-path=.\\/usr\\/bin\\/konsole package-name=konsole category=X-utility icon-path=./icons/terminal.png
-	# make app-name=Krita  executable-path=.\\/usr\\/bin\\/krita package-name=krita category=X-utility icon-path=./icons/krita.png
+	make app-name=Krita  executable-path=.\\/usr\\/bin\\/krita package-name=krita category=X-utility icon-path=./icons/krita.png
 	make app-name=Hardinfo  executable-path=.\\/usr\\/bin\\/hardinfo package-name=hardinfo category=X-utility icon-path=./icons/hardinfo.png
-	# make app-name=GIMP  executable-path=.\\/usr\\/bin\\/gimp package-name=gimp category=X-utility icon-path=./icons/gimp.png
-	# make app-name=Blender  executable-path=.\\/usr\\/bin\\/blender package-name=blender category=X-utility icon-path=./icons/blender.png
+	#make app-name=GIMP  executable-path=.\\/usr\\/bin\\/gimp package-name=gimp category=X-utility icon-path=./icons/gimp.png
+	#make app-name=Blender  executable-path=.\\/usr\\/bin\\/blender package-name=blender category=X-utility icon-path=./icons/blender.png
