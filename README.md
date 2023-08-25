@@ -1,4 +1,4 @@
-Converts ubuntu packages to App Images.
+Converts debian packages to App Images.
 
 # Makefile parameters:
 
@@ -6,7 +6,7 @@ Converts ubuntu packages to App Images.
 
 ```executable-path``` - Path to executable within image directory. (i.e.: ./usr/bin/cpu-x).
 
-```package-name``` - Ubuntu package name (i.e.: cpu-x, nano)
+```package-name``` - Debian package name (i.e.: cpu-x, nano)
 
 ```category``` - App image category name (i.e.: X-browsers)
 
