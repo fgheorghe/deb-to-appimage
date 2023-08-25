@@ -14,23 +14,10 @@ Converts debian packages to App Images.
 
 # Example usage
 
-Convert Brave:
-
-```make app-name=Brave  executable-path=.\\/usr\\/bin\\/brave-browser-stable package-name=brave-browser category=X-browsers icon-path=./icons/brave.png```
-
-Convert CPU-X:
-
-```make app-name=CPU-X  executable-path=.\\/usr\\/bin\\/cpu-x package-name=cpu-x category=X-system icon-path=./icons/cpu-x.png```
-
-Convert Thunderbird:
-
-```make app-name=Thunderbird  executable-path=.\\/usr\\/bin\\/thunderbird package-name=thunderbird category=X-email icon-path=./icons/thunderbird.png```
-
-Convert Konsole:
-
-```make app-name=Konsole  executable-path=.\\/usr\\/bin\\/konsole package-name=konsole category=X-utility icon-path=./icons/terminal.png```
-
+See Makefile examples task.
 
 # TODO
 
 Many items on the todo list, including: cleanup after extracting packages, add automated output testing, include versioning.
+
+Some builds fail for: gimp, xfce4-terminal, krita due to missing shared libraries.
