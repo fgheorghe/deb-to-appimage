@@ -26,6 +26,10 @@ Convert Thunderbird:
 
 ```make app-name=Thunderbird  executable-path=.\\/usr\\/bin\\/thunderbird package-name=thunderbird category=X-email icon-path=./icons/thunderbird.png```
 
+Convert Konsole:
+
+```make app-name=Konsole  executable-path=.\\/usr\\/bin\\/konsole package-name=konsole category=X-utility icon-path=./icons/terminal.png```
+
 
 # TODO
 
