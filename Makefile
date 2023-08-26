@@ -28,4 +28,6 @@ examples:
 	make app-name=Chrome  executable-path=.\\/usr\\/bin\\/google-chrome-stable package-name=google-chrome-stable category=X-utility icon-path=./icons/chrome.png
 	make app-name=GrubCustomizer  executable-path=.\\/usr\\/bin\\/grub-customizer package-name=grub-customizer category=X-utility icon-path=./icons/grub-customizer.png
 	make app-name=OpenTTD  executable-path=.\\/usr\\/games\\/openttd package-name=openttd category=X-games icon-path=./icons/openttd.png
-	make app-name=Gambas  executable-path=.\\/usr\\/bin\\/gambas3 package-name="gambas3 gambas3-gb-db-sqlite3" category=X-development icon-path=./icons/gambas-3.png
+	make app-name=Krusader  executable-path=.\\/usr\\/bin\\/krusader package-name=krusader category=X-util icon-path=./icons/krusader.png
+	make app-name=DoubleCommander  executable-path=.\\/usr\\/bin\\/doublecmd package-name=doublecmd-qt category=X-util icon-path=./icons/double-commander.png
+	make app-name=Gambas  executable-path=.\\/usr\\/bin\\/gambas3 package-name="gambas3 gambas3-gb-db-sqlite3 gambas3-gb-qt5-webkit gambas3-gb-libxml gambas3-gb-gui-trayicon gambas3-gb-net-curl" category=X-development icon-path=./icons/gambas-3.png
