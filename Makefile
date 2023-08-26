@@ -11,7 +11,7 @@ set-up:
 	@echo "Done setting up."
 download-dependencies:
 	@echo "Downloading dependencies..."
-	@./download-dependencies.sh $(package-name) build/$(app-name)/dependencies
+	@./download-dependencies.sh "$(package-name)" build/$(app-name)/dependencies
 	@echo "Done downloading dependencies."
 extract-packages:
 	@echo "Extracting packages..."
@@ -27,3 +27,5 @@ examples:
 	make app-name=Hardinfo  executable-path=.\\/usr\\/bin\\/hardinfo package-name=hardinfo category=X-utility icon-path=./icons/hardinfo.png
 	make app-name=Chrome  executable-path=.\\/usr\\/bin\\/google-chrome-stable package-name=google-chrome-stable category=X-utility icon-path=./icons/chrome.png
 	make app-name=GrubCustomizer  executable-path=.\\/usr\\/bin\\/grub-customizer package-name=grub-customizer category=X-utility icon-path=./icons/grub-customizer.png
+	make app-name=OpenTTD  executable-path=.\\/usr\\/games\\/openttd package-name=openttd category=X-games icon-path=./icons/openttd.png
+	make app-name=Gambas  executable-path=.\\/usr\\/bin\\/gambas3 package-name="gambas3 gambas3-gb-db-sqlite3" category=X-development icon-path=./icons/gambas-3.png
