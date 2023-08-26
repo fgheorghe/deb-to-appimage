@@ -31,4 +31,6 @@ examples:
 	make app-name=Krusader  executable-path=.\\/usr\\/bin\\/krusader package-name=krusader category=X-util icon-path=./icons/krusader.png
 	make app-name=DoubleCommander  executable-path=.\\/usr\\/bin\\/doublecmd package-name=doublecmd-qt category=X-util icon-path=./icons/double-commander.png
 	make app-name=FileZilla  executable-path=.\\/usr\\/bin\\/filezilla package-name=filezilla category=X-util icon-path=./icons/filezilla.png
+	make app-name=Kate  executable-path=.\\/usr\\/bin\\/kate package-name=kate category=X-util icon-path=./icons/kate.png
+	make app-name=Kwrite  executable-path=.\\/usr\\/bin\\/kwrite package-name=kwrite category=X-util icon-path=./icons/kwrite.png
 	make app-name=Gambas  executable-path=.\\/usr\\/bin\\/gambas3 package-name="gambas3 gambas3-gb-db-sqlite3 gambas3-gb-qt5-webkit gambas3-gb-libxml gambas3-gb-gui-trayicon gambas3-gb-net-curl" category=X-development icon-path=./icons/gambas-3.png
