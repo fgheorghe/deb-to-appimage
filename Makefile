@@ -25,5 +25,5 @@ examples:
 	make app-name=Konsole  executable-path=.\\/usr\\/bin\\/konsole package-name=konsole category=X-utility icon-path=./icons/terminal.png
 	make app-name=Krita  executable-path=.\\/usr\\/bin\\/krita package-name=krita category=X-utility icon-path=./icons/krita.png
 	make app-name=Hardinfo  executable-path=.\\/usr\\/bin\\/hardinfo package-name=hardinfo category=X-utility icon-path=./icons/hardinfo.png
-	#make app-name=GIMP  executable-path=.\\/usr\\/bin\\/gimp package-name=gimp category=X-utility icon-path=./icons/gimp.png
-	#make app-name=Blender  executable-path=.\\/usr\\/bin\\/blender package-name=blender category=X-utility icon-path=./icons/blender.png
+	make app-name=Chrome  executable-path=.\\/usr\\/bin\\/google-chrome-stable package-name=google-chrome-stable category=X-utility icon-path=./icons/chrome.png
+	make app-name=GrubCustomizer  executable-path=.\\/usr\\/bin\\/grub-customizer package-name=grub-customizer category=X-utility icon-path=./icons/grub-customizer.png
